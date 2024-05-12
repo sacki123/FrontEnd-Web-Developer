@@ -1,4 +1,6 @@
 @import "header.css";
+@import "main.css";
+@import "footer.css";
 
 .container {
     display: grid;
@@ -106,21 +108,6 @@
 
 .button a:hover {
     color: #79c14d;
-}
-
-.footer {
-    grid-area: ft;
-    padding-top: 5px;
-    background-image: linear-gradient(to right bottom, #4967ef, #79c14d);
-    text-align: center;
-    font-family: Montserrat, 'Segoe UI', sans-serif;
-    font-size: large;
-}
-
-.footer img {
-    width: 25px;
-    height: 25px;
-    margin-top: 20px;
 }
 
 @media (max-width: 599px) {
