@@ -8,7 +8,7 @@
     text-overflow: clip;
 }
 
-.header h1 {
+#header_title {
     text-align: left;
     margin-left: 20px;
 }
@@ -19,7 +19,7 @@ nav {
     margin-left: auto;
 }
 
-.nav li {
+.nav_li {
     list-style: none;
     overflow: hidden;
     float: left;
@@ -29,12 +29,12 @@ nav {
     font-style: oblique;
 }
 
-.nav li a {
+.nav_link {
     text-decoration: none;
     text-align: center;
     color: #0e0557;
 }
 
-.nav li a:hover {
+.nav_link:hover {
     color: #fbfbfa;
 }
