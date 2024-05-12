@@ -1,0 +1,132 @@
+.container {
+    display: grid;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 1fr 1fr;
+    grid-template-areas: "hd"
+    "main"
+    "ft";
+    grid-gap: 5px;
+}
+
+.header {
+    grid-area: hd;
+    width: 100%;
+    height: 100%;
+}
+
+.header h3 {
+    margin: 0px;
+    color: #9c5348;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0px;
+}
+
+.nav li {
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    margin: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.nav li a {
+    text-decoration: none;
+    text-align: center;
+    color: #0e0557;
+}
+
+.nav li a:hover {
+    color: #e31456;
+}
+
+.content {
+    grid-area: main;
+}
+
+h4 {
+    color: #9c5348;
+}
+
+blockquote {
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.photo img {
+    width: 400px;
+    height: 250px;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: Verdana, sans-serif;
+    text-align: left;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.button {
+    color: #4967ef;
+}
+
+.button:hover {
+    color: #79c14d;
+}
+
+.footer {
+    grid-area: ft;
+    max-height: 100px;
+    margin-top: 5px;
+    padding-top: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Montserrat, 'Segoe UI', sans-serif;
+    font-size: large;
+}
+
+.footer img {
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+@media (max-width: 599px) {
+    .container {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 1fr 1fr;
+        grid-template-areas: "hd"
+        "main"
+        "ft";
+        grid-gap: 5px;
+    }
+}
