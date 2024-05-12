@@ -32,16 +32,16 @@
 .content_title {
     font-family: 'Tahoma', Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .author {
     display: flex;
     flex-direction: row nowrap;
     align-items: center;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
     font-family: Verdana, sans-serif;
     text-align: left;
     font-size: 10px;
